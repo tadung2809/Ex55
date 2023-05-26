@@ -3,5 +3,11 @@
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+  "scripts": {
+    "scss": "node-sass -o css/ css/"
   }
 }
